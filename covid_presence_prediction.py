@@ -63,14 +63,6 @@ class Classifier():
             print ("\n\n" +str(i), " ==> ", str(reduce(lambda x, y: x*y, self.cp[i].values())*self.priori[i]))
             print("\n")
 
-
-
-def main():
-    global cond
-    
-    
-
-
     
 if __name__ == "__main__":
     c = Classifier(filename="Covid_Dataset.csv", class_attr="COVID-19" )
